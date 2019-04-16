@@ -1,0 +1,17 @@
+FTP Server (Lab 2)
+Language: C
+Tested on: Fedora 29 Server, csegrid
+
+How to:
+
+To begin download and unzip the files in the location of your choice. 
+The file Server.c contains the source code for the server, and the file
+Client.c contains all the code for the client. 
+
+To build the binaries, simply run make in the extracted directory.
+This will build two binaries, Server and Client.
+To run the server simply type ./Server, the server will listen on port 1588
+To run the client simply type ./Client <location>, the client will try to contact
+the server running on port 1588. Example usage: ./Client localhost
+
+All functionality as per the requirements are implemented. 
